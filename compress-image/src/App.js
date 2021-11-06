@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import ShoppingList from './component/temp'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Edit compress Image <code>src/App.js</code> and save to reload.
         </p>
+        <ShoppingList/>
         <a
           className="App-link"
           href="https://reactjs.org"
